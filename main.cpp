@@ -35,6 +35,10 @@ int main(){
     mergesort(randVector);
     printVector(randVector);
 
+    copyVector(randVector,crandVector);
+
+    quickSort(randVector);
+    printVector(randVector);
     return 0;
 }
 
